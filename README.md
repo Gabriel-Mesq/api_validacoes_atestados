@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Essa é a prova de conceito de uma API desenvolvida em **FastAPI** que compara dois nomes e retorna um índice de similaridade baseado em dois algoritmos: **Levenshtein Distance** e **Jaro-Winkler**.
+Essa é a prova de conceito de uma API desenvolvida com **FastAPI** que compara dois nomes e retorna um índice de similaridade baseado em dois algoritmos: **Levenshtein Distance** e **Jaro-Winkler**.
 
 Caso a prova de conceito seja aprovada, iremos seguir a seguinte [Especificação da API de Validação de Atestados Médicos](https://docs.google.com/document/d/1YmPguLRIdmh7hrVrABcd93Az02iWd7tSQb3YloPSlTE/edit?tab=t.0#heading=h.uu1ce14y1c43)
 
