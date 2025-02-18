@@ -38,5 +38,5 @@ def call_llama_vision(bearer_token, image_path, prompt):
 
 image_path = "ANA CAROLINA DE CASTRO BUENO 12.02.2025.jpeg" 
 bearer_token = os.getenv("TOKEN")
-prompt = "Responda apenas com o nome completo da paciente no atestado médico."
+prompt = "Caso o anexo enviado não seja um atestado, responda com \"Null\", Caso seja um atestado, responda apenas com o nome completo do beneficiário do atestado médico."
 response = call_llama_vision(bearer_token, image_path, prompt)
